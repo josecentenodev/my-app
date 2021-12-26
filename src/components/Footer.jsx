@@ -1,11 +1,10 @@
 import React from 'react';
 
-var date = new Date();
-var actualYear = date.getFullYear();
+const actualYear = new Date().getFullYear();
 
 function Footer() {
     return <footer>
-        <p>Estudio Mola © { actualYear }</p> 
+        <p>Centeno José Antonio © { actualYear }</p> 
         </footer>
 }
 
